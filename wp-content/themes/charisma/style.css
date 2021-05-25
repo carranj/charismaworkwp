@@ -1,0 +1,228 @@
+/*
+Theme Name: Charisma At Work
+Theme URI: http://charismaatwork.com
+Author: Jose Carranco
+Author URI: http://josecarranco.com
+Description: Custom theme made for Maria Bassa at Charisma At Work. This theme is fully responsive. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Charisma At Work
+
+*/
+/**************************************************************************************************
+Imports
+***************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+/**************************************************************************************************
+Variables
+***************************************************************************************************/
+/**************************************************************************************************
+Universal
+***************************************************************************************************/
+.clear-fix {
+  clear: both;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+body.logged-in #wrapper {
+  margin-top: 32px;
+}
+body.logged-in #wrapper .sidebar {
+  margin-top: 32px;
+}
+body .container {
+  max-width: 1080px;
+}
+body .container img {
+  width: 100%;
+  height: auto;
+}
+
+header a {
+  color: #212529;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  background: #4e7ac7;
+}
+footer p {
+  color: #efded2;
+  margin: 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+footer .soc-networks-box {
+  margin: 0 0 15px 0;
+}
+footer .soc-networks-box a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  color: #4e7ac7;
+  background: #d1c2b8;
+  border-radius: 50%;
+  font-size: 28px;
+  margin: 4px;
+  transition: all 0.3s ease;
+}
+footer .soc-networks-box a:hover {
+  color: #4e7ac7;
+  background: #bda799;
+  transition: all 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  display: inline-block;
+  margin: 30px 0;
+  border-bottom: 2px solid #5CCCCC;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  color: #4e7ac7;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+p {
+  font-size: 20px;
+}
+p.category {
+  font-size: 16px;
+  margin: 0;
+}
+
+/********************************************
+Navbar
+*********************************************/
+nav {
+  background: #efded2;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+nav .nav {
+  display: block;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+  color: #4e7ac7;
+  font-weight: 500;
+  transition: all 0.15s linear;
+}
+nav ul li:hover a {
+  text-decoration: none;
+  color: #3661ac;
+  transition: all 0.15s linear;
+}
+
+/********************************************
+Sidebar
+*********************************************/
+#sidebar {
+  padding: 30px 0 0 0;
+}
+#sidebar ul {
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+#sidebar h3.widget-title {
+  margin-top: 15px;
+}
+
+/********************************************
+Homepage
+*********************************************/
+#intro .hero-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#intro #logo {
+  max-width: 33%;
+  flex-grow: 1;
+  padding: 30px;
+}
+#intro .hero-image {
+  max-width: 67%;
+  flex-grow: 1;
+}
+
+#intro-passage {
+  padding: 15px 0;
+  text-align: center;
+}
+#intro-passage p {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#recent-posts {
+  padding: 60px 0;
+}
+
+/********************************************
+Blog
+*********************************************/
+.blogContainer {
+  border-right: 1px solid #e2e2e2;
+}
+
+/********************************************
+Contact Form 7
+*********************************************/
+form.wpcf7-form label {
+  display: block;
+}
+form input[type=text], form input[type=email], form textarea {
+  width: 100% !important;
+}
+
+/********************************************
+Password Required Pages
+*********************************************/
+.post-password-required p {
+  font-size: 36px;
+}
+.post-password-required label {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
